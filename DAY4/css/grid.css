@@ -1,0 +1,45 @@
+/* grid.css @2017 sensemint89*/
+
+html{
+    background: #fff
+
+}
+
+body{
+    padding: 42px;
+    height: 100vh;
+    background: url("../assets/leading_pattern-21.png");
+/*글꼴,글자크기,글자색상,자간,어간,행간*/
+    font-family:"NanumSquare", "Dotum","sans-serif";
+    font-size: 14px;
+    color:#4d4d4d;
+    letter-spacing: -0.02em;
+    line-height:1.5;
+    /* 속기성 속성 : 글꼴, 글자크기,글자기울기,글자번형*/
+    /*font: 글자크기 글골;(필수!!!)*/
+    /* font :14px "NanumSquare, Dotum, sans-serif;*/
+    /*font: 글자크기/행간 글꼴;(옵션)/*
+    /*font :14px/1.5 "NanumSquare, Dotum, sans-serif;/*
+    /*font: 두꼐 기울기 변형 글자크기/행간 글꼴;(옵션)/*
+    /*font :bold italic small cap 14px/1.5 
+    "NanumSquare", Dotum, sans-serif;*/
+    font :14px/1.5 "NanumSquare", Dotum, sans-serif;
+}
+
+p  {
+    margin-top: 0;
+    margin-bottom: 21px; /*1.5em*/;
+}
+
+/* 본문디자인 */
+
+.container {
+    /*너비*/
+    width:90%x;
+    /*최대너비*/
+    max-width: 960px;
+    /* 가운데 배치(Layout):남은 공간을 양분*/
+    margin-left: auto;
+    margin-right: auto;
+
+}
