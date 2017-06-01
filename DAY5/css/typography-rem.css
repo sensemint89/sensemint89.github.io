@@ -1,0 +1,21 @@
+/*가이드라인을 화면에 보여준다 */
+body {
+    margin: 0;
+    background: url("../assets/leading_pattern-21.png");
+    height:100vh; /*화면 가득 스크롤 없이 전체에 보여준다 */
+/*본문디자인 공통속성*/
+color: #4d4d4d;
+font: 300 87.5%/1.5 "Nanum Barun Gothic"
+}
+
+/*단락디자인*/
+p{
+    margin-top: 0;
+    margin-bottom: 1.5em;
+}
+
+.container {
+    width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+}
